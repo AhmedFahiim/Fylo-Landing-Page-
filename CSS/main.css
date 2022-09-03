@@ -241,7 +241,7 @@ footer .container > i {
   color: white;
   font-size: 40px;
 }
-footer .container > a {
+footer .container > span {
   margin-left: 10px;
   color: white;
   font-size: 40px;
@@ -261,9 +261,15 @@ footer .col-holder .col:first-child div {
   display: flex;
   align-items: center;
 }
-footer .col-holder .col:first-child .mobile span,
-footer .col-holder .col:first-child .mail span {
+footer .col-holder .col:first-child .mobile a,
+footer .col-holder .col:first-child .mail a {
   margin-left: 15px;
+  color: rgb(255 255 255 /0.7);
+  transition:0.3s;
+}
+footer .col-holder .col:first-child .mobile a:hover,
+footer .col-holder .col:first-child .mail a:hover {
+color:#fff;
 }
 /* start col 2 */
 footer .col-holder .col:nth-child(2) {
